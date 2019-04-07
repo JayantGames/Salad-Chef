@@ -6,4 +6,6 @@ using UnityEngine;
 public class ChefDetails : MonoBehaviour
 {
     public ScriptableObjectForChef scriptableObjectForChef;
+
+    
 }

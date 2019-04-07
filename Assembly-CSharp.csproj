@@ -61,6 +61,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\ChefDetails.cs" />
+    <Compile Include="Assets\Scripts\ChefMovement.cs" />
+    <Compile Include="Assets\Scripts\SaladsAPI_Manager.cs" />
     <Compile Include="Assets\Scripts\ScriptableObjectForChef.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>D:/SaladChef_Assignment/Salad Chef/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>

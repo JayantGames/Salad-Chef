@@ -1,0 +1,205 @@
+[
+	{
+		"two_vegetable_recipe": [
+			{
+				"id": "C-P",
+				"ingredient1": "Carrot",
+				"ingredient2": "Potato"
+			},
+			{
+				"id": "C-Ch",
+				"ingredient1": "Carrot",
+				"ingredient2": "Chilli"
+			},
+			{
+				"id": "C-M",
+				"ingredient1": "Carrot",
+				"ingredient2": "Mushroom"
+			},
+			{
+				"id": "C-T",
+				"ingredient1": "Carrot",
+				"ingredient2": "Tomato"
+			},
+			{
+				"id": "C-O",
+				"ingredient1": "Carrot",
+				"ingredient2": "Onion"
+			},
+			{
+				"id": "P-Ch",
+				"ingredient1": "Potato",
+				"ingredient2": "Chilli"
+			},
+			{
+				"id": "P-M",
+				"ingredient1": "Potato",
+				"ingredient2": "Mushroom"
+			},
+			{
+				"id": "P-T",
+				"ingredient1": "Potato",
+				"ingredient2": "Tomato"
+			},
+			{
+				"id": "P-O",
+				"ingredient1": "Potato",
+				"ingredient2": "Onion"
+			},
+			{
+				"id": "Ch-M",
+				"ingredient1": "Chilli",
+				"ingredient2": "Mushroom"
+			},
+			{
+				"id": "Ch-T",
+				"ingredient1": "Chilli",
+				"ingredient2": "Tomato"
+			},
+			{
+				"id": "Ch-O",
+				"ingredient1": "Chilli",
+				"ingredient2": "Onion"
+			},
+			{
+				"id": "M-T",
+				"ingredient1": "Mushroom",
+				"ingredient2": "Tomato"
+			},
+			{
+				"id": "M-O",
+				"ingredient1": "Mushroom",
+				"ingredient2": "Onion"
+			},
+			{
+				"id": "T-O",
+				"ingredient1": "Tomato",
+				"ingredient2": "Onion"
+			}
+		]
+	},
+	{
+		"three_vegetable_recipe": [
+			{
+				"id": "C-P-Ch",
+				"ingredient1": "Carrot",
+				"ingredient2": "Potato",
+				"ingredient3": "Chilli"
+			},
+			{
+				"id": "C-P-M",
+				"ingredient1": "Carrot",
+				"ingredient2": "Potato",
+				"ingredient3": "Mushroom"
+			},
+			{
+				"id": "C-P-T",
+				"ingredient1": "Carrot",
+				"ingredient2": "Potato",
+				"ingredient3": "Tomato"
+			},
+			{
+				"id": "C-P-O",
+				"ingredient1": "Carrot",
+				"ingredient2": "Potato",
+				"ingredient3": "Onion"
+			},
+			{
+				"id": "P-Ch-M",
+				"ingredient1": "Potato",
+				"ingredient2": "Chilli",
+				"ingredient3": "Mushroom"
+			},
+			{
+				"id": "P-Ch-T",
+				"ingredient1": "Potato",
+				"ingredient2": "Chilli",
+				"ingredient3": "Tomato"
+			},
+			{
+				"id": "P-Ch-O",
+				"ingredient1": "Potato",
+				"ingredient2": "Chilli",
+				"ingredient3": "Onion"
+			},
+			{
+				"id": "Ch-M-C",
+				"ingredient1": "Chilli",
+				"ingredient2": "Mushroom",
+				"ingredient3": "Carrot"
+			},
+			{
+				"id": "Ch-M-P",
+				"ingredient1": "Chilli",
+				"ingredient2": "Mushroom",
+				"ingredient3": "Potato"
+			},
+			{
+				"id": "Ch-M-T",
+				"ingredient1": "Chilli",
+				"ingredient2": "Mushroom",
+				"ingredient3": "Tomato"
+			},
+			{
+				"id": "Ch-M-O",
+				"ingredient1": "Chilli",
+				"ingredient2": "Mushroom",
+				"ingredient3": "Onion"
+			},
+			{
+				"id": "M-T-C",
+				"ingredient1": "Mushroom",
+				"ingredient2": "Tomato",
+				"ingredient3": "Carrot"
+			},
+			{
+				"id": "M-T-P",
+				"ingredient1": "Mushroom",
+				"ingredient2": "Tomato",
+				"ingredient3": "Potato"
+			},
+			{
+				"id": "M-T-O",
+				"ingredient1": "Mushroom",
+				"ingredient2": "Tomato",
+				"ingredient3": "Onion"
+			},
+			{
+				"id": "T-O-C",
+				"ingredient1": "Tomato",
+				"ingredient2": "Onion",
+				"ingredient3": "Carrot"
+			},
+			{
+				"id": "T-O-P",
+				"ingredient1": "Tomato",
+				"ingredient2": "Onion",
+				"ingredient3": "Potato"
+			},
+			{
+				"id": "T-O-Ch",
+				"ingredient1": "Tomato",
+				"ingredient2": "Onion",
+				"ingredient3": "Chilli"
+			},
+			{
+				"id": "C-Ch-T",
+				"ingredient1": "Carrot",
+				"ingredient2": "Chilli",
+				"ingredient3": "Tomato"
+			},
+			{
+				"id": "C-Ch-O",
+				"ingredient1": "Carrot",
+				"ingredient2": "Chilli",
+				"ingredient3": "Onion"
+			},
+			{
+				"id": "P-M-O",
+				"ingredient1": "Potato",
+				"ingredient2": "Mushroom",
+				"ingredient3": "Onion"
+			}
+		]
+	}
+]
