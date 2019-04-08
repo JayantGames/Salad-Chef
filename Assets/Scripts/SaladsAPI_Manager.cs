@@ -9,10 +9,11 @@ public class SaladsAPI_Manager : MonoBehaviour
     public string apiBaseUrl; 
     public List<TwoVegetableRecipe> twoVegetableRecipe;
     public List<ThreeVegetableRecipe> threeVegetableRecipe;
+
     // Start is called before the first frame update
     void Start()
     {
-    //    StartCoroutine(callAPI());
+        StartCoroutine(callAPI());
     }
 
     IEnumerator callAPI()
@@ -20,19 +21,15 @@ public class SaladsAPI_Manager : MonoBehaviour
         UnityWebRequest www = UnityWebRequest.Get(apiBaseUrl);
         yield return www.SendWebRequest();
         Debug.Log("Fetched Data : " + www.downloadHandler.text);
-        
 
         if (www.isNetworkError || www.isHttpError)
-        {
-            // Debug.Log("Error : " + www.d);
-            Debug.LogError(www);
-            
+        {                                    
+            Debug.LogError(www);        
         }
         else
         {
             parseSaladsJson(www.downloadHandler.text);
-        }
-        
+        }                 
     }
 
     void parseSaladsJson(string json)
@@ -42,10 +39,7 @@ public class SaladsAPI_Manager : MonoBehaviour
 
         twoVegetableRecipe = rootObject.two_vegetable_recipe;
         threeVegetableRecipe = rootObject.three_vegetable_recipe;
-    }
-
-    
-
+    }                  
 }
 
 [System.Serializable]

@@ -17,6 +17,6 @@ MonoBehaviour:
   pickedVegetables: []
   pickedSalad: {fileID: 0}
   chopping: 0
-  movementSpeed: 5
-  playerTime: 120
+  movementSpeed: 0
+  playerTime: 0
   playerScore: 0

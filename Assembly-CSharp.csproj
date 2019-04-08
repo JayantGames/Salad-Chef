@@ -62,6 +62,8 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\ChefDetails.cs" />
     <Compile Include="Assets\Scripts\ChefMovement.cs" />
+    <Compile Include="Assets\Scripts\GameManager.cs" />
+    <Compile Include="Assets\Scripts\ObjectType.cs" />
     <Compile Include="Assets\Scripts\SaladsAPI_Manager.cs" />
     <Compile Include="Assets\Scripts\ScriptableObjectForChef.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
