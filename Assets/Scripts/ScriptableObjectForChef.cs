@@ -34,7 +34,7 @@ public class ScriptableObjectForChef : ScriptableObject
 
     //Player property variables  
     public GameObject pickedSalad;
-    public bool chopping;
+   // public bool chopping;
     public float movementSpeed;
     public int playerTime;
     public int playerScore;

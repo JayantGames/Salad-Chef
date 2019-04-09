@@ -6,9 +6,17 @@ using System;
 
 public class SaladsAPI_Manager : MonoBehaviour
 {
+    public static SaladsAPI_Manager Instance;
+   
     public string apiBaseUrl; 
     public List<TwoVegetableRecipe> twoVegetableRecipe;
     public List<ThreeVegetableRecipe> threeVegetableRecipe;
+    public bool saladsDataFetched;
+
+    private void Awake()
+    {
+        Instance = this;
+    }
 
     // Start is called before the first frame update
     void Start()
@@ -23,22 +31,26 @@ public class SaladsAPI_Manager : MonoBehaviour
         Debug.Log("Fetched Data : " + www.downloadHandler.text);
 
         if (www.isNetworkError || www.isHttpError)
-        {                                    
+        {
+            saladsDataFetched = false;
             Debug.LogError(www);        
         }
         else
         {
+            saladsDataFetched = true;
             parseSaladsJson(www.downloadHandler.text);
         }                 
     }
 
     void parseSaladsJson(string json)
-    {
+    {          
         Debug.Log("ParseSaladsJson is being called");
         RootObject rootObject = JsonUtility.FromJson<RootObject>(json);
 
         twoVegetableRecipe = rootObject.two_vegetable_recipe;
         threeVegetableRecipe = rootObject.three_vegetable_recipe;
+
+        
     }                  
 }
 

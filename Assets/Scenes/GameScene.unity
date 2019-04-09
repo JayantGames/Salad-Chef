@@ -255,7 +255,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.10233333, y: 0.6637223}
   m_AnchorMax: {x: 0.896, y: 0.79427785}
-  m_AnchoredPosition: {x: -0.100097656, y: 2.5999756}
+  m_AnchoredPosition: {x: -0.099609375, y: 2.5998535}
   m_SizeDelta: {x: -1.5, y: 3.9000244}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &52290432
@@ -331,7 +331,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.58434373, y: 0}
   m_AnchorMax: {x: 0.68878126, y: 1}
-  m_AnchoredPosition: {x: 0.59814453, y: -15}
+  m_AnchoredPosition: {x: 0.5986328, y: -15}
   m_SizeDelta: {x: -31, y: 0}
   m_Pivot: {x: 0, y: 0}
 --- !u!114 &87349958
@@ -384,7 +384,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 50.92263, y: 56.425583}
+  m_Offset: {x: 53.7648, y: 82.81197}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -395,7 +395,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 102.84526, y: 87.851166}
+  m_Size: {x: 24.80597, y: 53.79921}
   m_EdgeRadius: 0
 --- !u!114 &87349961
 MonoBehaviour:
@@ -479,6 +479,95 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1 &208461732
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 208461733}
+  - component: {fileID: 208461736}
+  - component: {fileID: 208461735}
+  - component: {fileID: 208461734}
+  m_Layer: 5
+  m_Name: Background
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &208461733
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 208461732}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.14341514, y: 0.36275595, z: 0.67489475}
+  m_Children:
+  - {fileID: 1840174996}
+  m_Father: {fileID: 1621413831}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0.25}
+  m_AnchorMax: {x: 1, y: 0.75}
+  m_AnchoredPosition: {x: 0, y: 27}
+  m_SizeDelta: {x: 140, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &208461734
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 208461732}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1200242548, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ShowMaskGraphic: 1
+--- !u!114 &208461735
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 208461732}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+--- !u!222 &208461736
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 208461732}
+  m_CullTransparentMesh: 0
 --- !u!1 &268980577
 GameObject:
   m_ObjectHideFlags: 0
@@ -915,7 +1004,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 50.92263, y: 65}
+  m_Offset: {x: 53.7648, y: 84.18692}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -926,7 +1015,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 102.84526, y: 105}
+  m_Size: {x: 24.80597, y: 56.54911}
   m_EdgeRadius: 0
 --- !u!114 &533970822
 MonoBehaviour:
@@ -1305,7 +1394,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 50.92263, y: 56.79158}
+  m_Offset: {x: 53.7648, y: 82.81197}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -1316,7 +1405,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 102.84526, y: 88.58316}
+  m_Size: {x: 24.80597, y: 53.79921}
   m_EdgeRadius: 0
 --- !u!114 &751866015
 MonoBehaviour:
@@ -1506,6 +1595,15 @@ MonoBehaviour:
     type: 2}
   pickIndicator: {fileID: 933056317}
   pickedVegetables: []
+  pickedTwoVegetableSalad:
+    id: 
+    ingredient1: 
+    ingredient2: 
+  pickedThreeVegetableSalad:
+    id: 
+    ingredient1: 
+    ingredient2: 
+    ingredient3: 
 --- !u!50 &846596231
 Rigidbody2D:
   serializedVersion: 4
@@ -1567,6 +1665,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 40
   rb: {fileID: 0}
+  choppingTime: 3
+  currentlyChoppingIngredient: 
+  listOfChoppedIngredients: []
+  ingredient1Id: 
+  ingredient2Id: 
+  ingredient3Id: 
 --- !u!1 &920194842
 GameObject:
   m_ObjectHideFlags: 0
@@ -1925,7 +2029,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 50.92263, y: 65}
+  m_Offset: {x: 53.7648, y: 82.81197}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -1936,7 +2040,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 102.84526, y: 105}
+  m_Size: {x: 24.80597, y: 53.79921}
   m_EdgeRadius: 0
 --- !u!114 &978370465
 MonoBehaviour:
@@ -1962,6 +2066,7 @@ GameObject:
   - component: {fileID: 1001552064}
   - component: {fileID: 1001552066}
   - component: {fileID: 1001552065}
+  - component: {fileID: 1001552067}
   m_Layer: 5
   m_Name: Customer1
   m_TagString: Untagged
@@ -2011,7 +2116,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_Sprite: {fileID: 21300000, guid: 8a4185a8ca59b2b4caf6d70fb63ec0c7, type: 3}
   m_Type: 0
-  m_PreserveAspect: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -2026,6 +2131,43 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1001552063}
   m_CullTransparentMesh: 0
+--- !u!114 &1001552067
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1001552063}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89b9e525aa1f3bc4993acec32276b609, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maximumWaitingTime: 20
+  currentWaitingTime: 20
+  customerState: 0
+  saladPlate: {fileID: 1621413830}
+  orderedTwoVegetableSalad:
+    id: 
+    ingredient1: 
+    ingredient2: 
+  orderedThreeVegetableSalad:
+    id: 
+    ingredient1: 
+    ingredient2: 
+    ingredient3: 
+  recievedTwoVegetableSalad:
+    id: 
+    ingredient1: 
+    ingredient2: 
+  recievedThreeVegetableSalad:
+    id: 
+    ingredient1: 
+    ingredient2: 
+    ingredient3: 
+  waitingBar: {fileID: 1840174997}
+  twoVegetableSalad: 0
+  threeVegetableSalad: 0
 --- !u!1 &1051045104
 GameObject:
   m_ObjectHideFlags: 0
@@ -2604,6 +2746,15 @@ MonoBehaviour:
     type: 2}
   pickIndicator: {fileID: 268980577}
   pickedVegetables: []
+  pickedTwoVegetableSalad:
+    id: 
+    ingredient1: 
+    ingredient2: 
+  pickedThreeVegetableSalad:
+    id: 
+    ingredient1: 
+    ingredient2: 
+    ingredient3: 
 --- !u!61 &1507904898
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2728,6 +2879,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 40
   rb: {fileID: 0}
+  choppingTime: 3
+  currentlyChoppingIngredient: 
+  listOfChoppedIngredients: []
+  ingredient1Id: 
+  ingredient2Id: 
+  ingredient3Id: 
 --- !u!1 &1534246262
 GameObject:
   m_ObjectHideFlags: 0
@@ -2916,6 +3073,7 @@ GameObject:
   - component: {fileID: 1621413833}
   - component: {fileID: 1621413832}
   - component: {fileID: 1621413834}
+  - component: {fileID: 1621413835}
   m_Layer: 5
   m_Name: Plate
   m_TagString: Untagged
@@ -2933,7 +3091,8 @@ RectTransform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 6.235383, y: 6.235383, z: 6.235383}
-  m_Children: []
+  m_Children:
+  - {fileID: 208461733}
   m_Father: {fileID: 1001552064}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2989,7 +3148,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: -0.056268692, y: -2.872365}
@@ -3005,6 +3164,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 18.22694, y: 16.42787}
   m_EdgeRadius: 0
+--- !u!114 &1621413835
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1621413830}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36d8ae0d71c25b54ab48454d99010587, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectType: 1
 --- !u!1 &1650786583
 GameObject:
   m_ObjectHideFlags: 0
@@ -3150,6 +3322,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player1: {fileID: 0}
   player2: {fileID: 0}
+  currentDifficultyLevel: 1
 --- !u!1 &1760630520
 GameObject:
   m_ObjectHideFlags: 0
@@ -3340,7 +3513,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 50.92263, y: 65}
+  m_Offset: {x: 53.7648, y: 82.81197}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -3351,7 +3524,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 102.84526, y: 105}
+  m_Size: {x: 24.80597, y: 53.79921}
   m_EdgeRadius: 0
 --- !u!114 &1776331347
 MonoBehaviour:
@@ -3402,7 +3575,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.052114353, y: 0.39573002}
   m_AnchorMax: {x: 0.9466653, y: 0.6045401}
-  m_AnchoredPosition: {x: -0.11038971, y: -0.07006836}
+  m_AnchoredPosition: {x: -0.11038971, y: -0.06982422}
   m_SizeDelta: {x: -20, y: -20}
   m_Pivot: {x: 0, y: 0}
 --- !u!114 &1790435094
@@ -3481,6 +3654,80 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectType: 0
+--- !u!1 &1840174995
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1840174996}
+  - component: {fileID: 1840174998}
+  - component: {fileID: 1840174997}
+  m_Layer: 5
+  m_Name: Background (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1840174996
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1840174995}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.36, y: 0.59, z: 0.5823}
+  m_Children: []
+  m_Father: {fileID: 208461733}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0.25}
+  m_AnchorMax: {x: 1, y: 0.75}
+  m_AnchoredPosition: {x: 0.00016021729, y: 0}
+  m_SizeDelta: {x: -42.353, y: 5}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1840174997
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1840174995}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 3
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 0
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+--- !u!222 &1840174998
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1840174995}
+  m_CullTransparentMesh: 0
 --- !u!1 &2057128492
 GameObject:
   m_ObjectHideFlags: 0
@@ -3602,6 +3849,7 @@ MonoBehaviour:
   apiBaseUrl: https://api.myjson.com/bins/cu1mc
   twoVegetableRecipe: []
   threeVegetableRecipe: []
+  saladsDataFetched: 0
 --- !u!1 &2070721055
 GameObject:
   m_ObjectHideFlags: 0

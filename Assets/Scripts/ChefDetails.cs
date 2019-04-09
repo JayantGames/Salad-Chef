@@ -7,5 +7,7 @@ public class ChefDetails : MonoBehaviour
 {
     public ScriptableObjectForChef scriptableObjectForChef;
     public GameObject pickIndicator;
-    public List<string> pickedVegetables;
+    public List<string> pickedVegetables;          
+    public TwoVegetableRecipe pickedTwoVegetableSalad;
+    public ThreeVegetableRecipe pickedThreeVegetableSalad;
 }
