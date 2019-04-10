@@ -60,13 +60,21 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\CustomerInteraction.cs" />
     <Compile Include="Assets\Scripts\ChefDetails.cs" />
     <Compile Include="Assets\Scripts\ChefMovement.cs" />
+    <Compile Include="Assets\Scripts\CustomerInteraction.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\ObjectType.cs" />
     <Compile Include="Assets\Scripts\SaladsAPI_Manager.cs" />
     <Compile Include="Assets\Scripts\ScriptableObjectForChef.cs" />
+    <Compile Include="Assets\UltimateMenus\Scripts\ButtonController.cs" />
+    <Compile Include="Assets\UltimateMenus\Scripts\ButtonController_Paused.cs" />
+    <Compile Include="Assets\UltimateMenus\Scripts\CanvasController.cs" />
+    <Compile Include="Assets\UltimateMenus\Scripts\CanvasController_Paused.cs" />
+    <Compile Include="Assets\UltimateMenus\Scripts\MenuController.cs" />
+    <Compile Include="Assets\UltimateMenus\Scripts\MenuController_Paused.cs" />
+    <Compile Include="Assets\UltimateMenus\Scripts\PlayerController.cs" />
+    <None Include="Assets\UltimateMenus\Readme.txt" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>D:/SaladChef_Assignment/Salad Chef/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
