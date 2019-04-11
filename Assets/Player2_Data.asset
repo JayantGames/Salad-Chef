@@ -13,10 +13,8 @@ MonoBehaviour:
   m_Name: Player2_Data
   m_EditorClassIdentifier: 
   thisPlayer: 1
-  currentPickup: 0
-  pickedVegetables: []
+  thisPlayerState: 1
   pickedSalad: {fileID: 0}
-  chopping: 0
-  movementSpeed: 5
-  playerTime: 120
+  movementSpeed: 70
+  playerTime: 70.88894
   playerScore: 0

@@ -1,4 +1,4 @@
-﻿using System.Collections;         
+﻿using System.Collections;
 using UnityEngine;
 using UnityEditor;
 using System;
@@ -6,36 +6,27 @@ using System;
 [CreateAssetMenu(fileName = "Data", menuName = "ScriptableObjectForChef", order = 1)]
 public class ScriptableObjectForChef : ScriptableObject
 {
-   //State machines
-   public enum PLAYER
+    // State machine to check for player.
+    public enum PLAYER
     {
         PLAYER_1,
         PLAYER_2
     }
 
+    // State machine to check for player state.
     public enum PLAYER_STATE
     {
-          CHOPPING,
-          MOVING
+        CHOPPING,
+        MOVING
     }
 
-    public enum PICKUP
-    {
-        NONE,
-        SPEED,
-        TIME,
-        SCORE
-    }
-    
-    //Public States
+    // Public States
     public PLAYER thisPlayer;
     public PLAYER_STATE thisPlayerState;
-    public PICKUP currentPickup;
 
-    //Player property variables  
+    // Player property variables  
     public GameObject pickedSalad;
-   // public bool chopping;
-    public float movementSpeed;
-    public int playerTime;
+    public int movementSpeed;
+    public float playerTime;
     public int playerScore;
 }
